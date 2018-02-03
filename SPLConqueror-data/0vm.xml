@@ -1,0 +1,1005 @@
+<vm name="KeY">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent />
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Stop_2_at_1__1_Default</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Stop_2_at_1__1_Unclosable</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Stop_2_at_1__1_Unclosable</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Stop_2_at_1__1_Default</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>One_2_Step_2_Simplification_1__1_Enabled</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>One_2_Step_2_Simplification_1__1_Disabled</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>One_2_Step_2_Simplification_1__1_Disabled</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>One_2_Step_2_Simplification_1__1_Enabled</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Proof_2_splitting_1__1_Free</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Proof_2_splitting_1__1_Delayed</options>
+        <options>Proof_2_splitting_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Proof_2_splitting_1__1_Delayed</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Proof_2_splitting_1__1_Free</options>
+        <options>Proof_2_splitting_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Proof_2_splitting_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Proof_2_splitting_1__1_Free</options>
+        <options>Proof_2_splitting_1__1_Delayed</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Loop_2_treatment_1__1_Invariant</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Loop_2_treatment_1__1_Expand</options>
+        <options>Loop_2_treatment_1__1_None</options>
+        <options>Loop_2_treatment_1__1_Loop_2_Scope_2_Invariant</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Loop_2_treatment_1__1_Expand</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Loop_2_treatment_1__1_Invariant</options>
+        <options>Loop_2_treatment_1__1_None</options>
+        <options>Loop_2_treatment_1__1_Loop_2_Scope_2_Invariant</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Loop_2_treatment_1__1_None</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Loop_2_treatment_1__1_Invariant</options>
+        <options>Loop_2_treatment_1__1_Expand</options>
+        <options>Loop_2_treatment_1__1_Loop_2_Scope_2_Invariant</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Loop_2_treatment_1__1_Loop_2_Scope_2_Invariant</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Loop_2_treatment_1__1_Invariant</options>
+        <options>Loop_2_treatment_1__1_Expand</options>
+        <options>Loop_2_treatment_1__1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Block_2_treatment_1__1_Contract</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Block_2_treatment_1__1_Expand</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Block_2_treatment_1__1_Expand</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Block_2_treatment_1__1_Contract</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Method_2_treatment_1__1_Contract</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Method_2_treatment_1__1_Expand</options>
+        <options>Method_2_treatment_1__1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Method_2_treatment_1__1_Expand</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Method_2_treatment_1__1_Contract</options>
+        <options>Method_2_treatment_1__1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Method_2_treatment_1__1_None</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Method_2_treatment_1__1_Contract</options>
+        <options>Method_2_treatment_1__1_Expand</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Merge_2_point_2_statements_1__1_Merge</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Merge_2_point_2_statements_1__1_Skip</options>
+        <options>Merge_2_point_2_statements_1__1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Merge_2_point_2_statements_1__1_Skip</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Merge_2_point_2_statements_1__1_Merge</options>
+        <options>Merge_2_point_2_statements_1__1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Merge_2_point_2_statements_1__1_None</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Merge_2_point_2_statements_1__1_Merge</options>
+        <options>Merge_2_point_2_statements_1__1_Skip</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Dependency_2_contracts_1__1_On</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Dependency_2_contracts_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Dependency_2_contracts_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Dependency_2_contracts_1__1_On</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Query_2_treatment_1__1_On</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Query_2_treatment_1__1_Restricted</options>
+        <options>Query_2_treatment_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Query_2_treatment_1__1_Restricted</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Query_2_treatment_1__1_On</options>
+        <options>Query_2_treatment_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Query_2_treatment_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Query_2_treatment_1__1_On</options>
+        <options>Query_2_treatment_1__1_Restricted</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Expand_2_local_2_queries_1__1_On</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Expand_2_local_2_queries_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Expand_2_local_2_queries_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Expand_2_local_2_queries_1__1_On</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Arithmetic_2_treatment_1__1_Basic</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Arithmetic_2_treatment_1__1_DefOps</options>
+        <options>Arithmetic_2_treatment_1__1_Model_2_Search</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Arithmetic_2_treatment_1__1_DefOps</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Arithmetic_2_treatment_1__1_Basic</options>
+        <options>Arithmetic_2_treatment_1__1_Model_2_Search</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Arithmetic_2_treatment_1__1_Model_2_Search</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Arithmetic_2_treatment_1__1_Basic</options>
+        <options>Arithmetic_2_treatment_1__1_DefOps</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Quantifier_2_treatment_1__1_None</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits</options>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits_2_with_2_Progs</options>
+        <options>Quantifier_2_treatment_1__1_Free</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Quantifier_2_treatment_1__1_No_2_Splits</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Quantifier_2_treatment_1__1_None</options>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits_2_with_2_Progs</options>
+        <options>Quantifier_2_treatment_1__1_Free</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Quantifier_2_treatment_1__1_No_2_Splits_2_with_2_Progs</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Quantifier_2_treatment_1__1_None</options>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits</options>
+        <options>Quantifier_2_treatment_1__1_Free</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Quantifier_2_treatment_1__1_Free</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Quantifier_2_treatment_1__1_None</options>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits</options>
+        <options>Quantifier_2_treatment_1__1_No_2_Splits_2_with_2_Progs</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Class_2_axiom_2_rule_1__1_Free</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Class_2_axiom_2_rule_1__1_Delayed</options>
+        <options>Class_2_axiom_2_rule_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Class_2_axiom_2_rule_1__1_Delayed</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Class_2_axiom_2_rule_1__1_Free</options>
+        <options>Class_2_axiom_2_rule_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Class_2_axiom_2_rule_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Class_2_axiom_2_rule_1__1_Free</options>
+        <options>Class_2_axiom_2_rule_1__1_Delayed</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Auto_2_Induction_1__1_On</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Auto_2_Induction_1__1_Restricted</options>
+        <options>Auto_2_Induction_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Auto_2_Induction_1__1_Restricted</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Auto_2_Induction_1__1_On</options>
+        <options>Auto_2_Induction_1__1_Off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Auto_2_Induction_1__1_Off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Auto_2_Induction_1__1_On</options>
+        <options>Auto_2_Induction_1__1_Restricted</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>assertions_1__1_assertions_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>assertions_1__1_assertions_1_off</options>
+        <options>assertions_1__1_assertions_1_safe</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>assertions_1__1_assertions_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>assertions_1__1_assertions_1_on</options>
+        <options>assertions_1__1_assertions_1_safe</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>assertions_1__1_assertions_1_safe</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>assertions_1__1_assertions_1_on</options>
+        <options>assertions_1__1_assertions_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>initialisation_1__1_initialisation_1_disableStaticInitialisation</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>initialisation_1__1_initialisation_1_enableStaticInitialisation</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>initialisation_1__1_initialisation_1_enableStaticInitialisation</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>initialisation_1__1_initialisation_1_disableStaticInitialisation</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>intRules_1__1_intRules_1_arithmeticSemanticsIgnoringOF</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>intRules_1__1_intRules_1_arithmeticSemanticsCheckingOF</options>
+        <options>intRules_1__1_intRules_1_javaSemantics</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>intRules_1__1_intRules_1_arithmeticSemanticsCheckingOF</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>intRules_1__1_intRules_1_arithmeticSemanticsIgnoringOF</options>
+        <options>intRules_1__1_intRules_1_javaSemantics</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>intRules_1__1_intRules_1_javaSemantics</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>intRules_1__1_intRules_1_arithmeticSemanticsIgnoringOF</options>
+        <options>intRules_1__1_intRules_1_arithmeticSemanticsCheckingOF</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>programRules_1__1_programRules_1_Java</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>programRules_1__1_programRules_1_None</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>programRules_1__1_programRules_1_None</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>programRules_1__1_programRules_1_Java</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>runtimeExceptions_1__1_runtimeExceptions_1_ban</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_allow</options>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_ignore</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>runtimeExceptions_1__1_runtimeExceptions_1_allow</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_ban</options>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_ignore</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>runtimeExceptions_1__1_runtimeExceptions_1_ignore</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_ban</options>
+        <options>runtimeExceptions_1__1_runtimeExceptions_1_allow</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>JavaCard_1__1_JavaCard_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>JavaCard_1__1_JavaCard_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>JavaCard_1__1_JavaCard_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>JavaCard_1__1_JavaCard_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Strings_1__1_Strings_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Strings_1__1_Strings_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>Strings_1__1_Strings_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>Strings_1__1_Strings_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>modelFields_1__1_modelFields_1_treatAsAxiom</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>modelFields_1__1_modelFields_1_showSatisfiability</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>modelFields_1__1_modelFields_1_showSatisfiability</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>modelFields_1__1_modelFields_1_treatAsAxiom</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bigint_1__1_bigint_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>bigint_1__1_bigint_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bigint_1__1_bigint_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>bigint_1__1_bigint_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>sequences_1__1_sequences_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>sequences_1__1_sequences_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>sequences_1__1_sequences_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>sequences_1__1_sequences_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>moreSeqRules_1__1_moreSeqRules_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>moreSeqRules_1__1_moreSeqRules_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>moreSeqRules_1__1_moreSeqRules_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>moreSeqRules_1__1_moreSeqRules_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>reach_1__1_reach_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>reach_1__1_reach_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>reach_1__1_reach_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>reach_1__1_reach_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>integerSimplificationRules_1__1_integerSimplificationRules_1_full</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>integerSimplificationRules_1__1_integerSimplificationRules_1_minimal</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>integerSimplificationRules_1__1_integerSimplificationRules_1_minimal</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>integerSimplificationRules_1__1_integerSimplificationRules_1_full</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>permissions_1__1_permissions_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>permissions_1__1_permissions_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>permissions_1__1_permissions_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>permissions_1__1_permissions_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wdOperator_1__1_wdOperator_1_L</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>wdOperator_1__1_wdOperator_1_Y</options>
+        <options>wdOperator_1__1_wdOperator_1_D</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wdOperator_1__1_wdOperator_1_Y</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>wdOperator_1__1_wdOperator_1_L</options>
+        <options>wdOperator_1__1_wdOperator_1_D</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wdOperator_1__1_wdOperator_1_D</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>wdOperator_1__1_wdOperator_1_L</options>
+        <options>wdOperator_1__1_wdOperator_1_Y</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wdChecks_1__1_wdChecks_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>wdChecks_1__1_wdChecks_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>wdChecks_1__1_wdChecks_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>wdChecks_1__1_wdChecks_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mergeGenerateIsWeakeningGoal_1__1_mergeGenerateIsWeakeningGoal_1_on</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeGenerateIsWeakeningGoal_1__1_mergeGenerateIsWeakeningGoal_1_off</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>mergeGenerateIsWeakeningGoal_1__1_mergeGenerateIsWeakeningGoal_1_off</name>
+      <outputString />
+      <prefix />
+      <postfix />
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>mergeGenerateIsWeakeningGoal_1__1_mergeGenerateIsWeakeningGoal_1_on</options>
+      </excludedOptions>
+      <optional>True</optional>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions />
+  <booleanConstraints>
+    <constraint>Method_2_treatment_1__1_Contract</constraint>
+    <constraint>Block_2_treatment_1__1_Contract</constraint>
+    <constraint>Loop_2_treatment_1__1_Invariant | Loop_2_treatment_1__1_Loop_2_Scope_2_Invariant</constraint>
+    <constraint>Auto_2_Induction_1__1_Off</constraint>
+    <constraint>JavaCard_1__1_JavaCard_1_off</constraint>
+    <constraint>assertions_1__1_assertions_1_safe</constraint>
+    <constraint>initialisation_1__1_initialisation_1_disableStaticInitialisation</constraint>
+    <constraint>mergeGenerateIsWeakeningGoal_1__1_mergeGenerateIsWeakeningGoal_1_off</constraint>
+    <constraint>modelFields_1__1_modelFields_1_treatAsAxiom</constraint>
+    <constraint>permissions_1__1_permissions_1_off</constraint>
+    <constraint>programRules_1__1_programRules_1_Java</constraint>
+    <constraint>runtimeExceptions_1__1_runtimeExceptions_1_ban</constraint>
+    <constraint>wdChecks_1__1_wdChecks_1_off</constraint>
+    <constraint>wdOperator_1__1_wdOperator_1_L</constraint>
+  </booleanConstraints>
+  <nonBooleanConstraints />
+</vm>

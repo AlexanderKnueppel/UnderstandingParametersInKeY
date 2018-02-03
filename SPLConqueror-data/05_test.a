@@ -1,0 +1,10 @@
+log ./5_output.txt
+vm ./0vm.xml
+all ./5train.xml
+mlsettings featureSizeTreshold:1 stopOnLongRound:False useBackward:False abortError:0.00000000000001 limitFeatureSize:True learn_logFunction:True numberOfRounds:70 backwardErrorDelta:0.00000000000001 minImprovementPerRound:0.0000000000000000000001 withHierarchy:False
+evaluationset ./5test.xml
+nfp Performance
+select-all-measurements true
+learn-splconqueror
+analyze-learning
+clean-sampling

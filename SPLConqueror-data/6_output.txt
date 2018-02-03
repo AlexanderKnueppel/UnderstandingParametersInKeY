@@ -1,0 +1,34 @@
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1 limitFeatureSize:False featureSizeTreshold:4 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:False learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1 minImprovementPerRound:0.1 withHierarchy:True bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:True candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: vm ./0vm.xml
+command: all ./6train.xml
+Configs with too large deviation: 0
+875 configurations loaded.
+command: mlsettings featureSizeTreshold:1 stopOnLongRound:False useBackward:False abortError:0.00000000000001 limitFeatureSize:True learn_logFunction:True numberOfRounds:70 backwardErrorDelta:0.00000000000001 minImprovementPerRound:0.0000000000000000000001 withHierarchy:False
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1E-14 limitFeatureSize:True featureSizeTreshold:1 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:True learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1E-14 minImprovementPerRound:1E-22 withHierarchy:False bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:False candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: evaluationset ./6test.xml
+Configs with too large deviation: 0
+Evaluation set loaded.
+command: nfp Performance
+command: select-all-measurements true
+command: learn-splconqueror
+Learning: NumberOfConfigurationsLearning:875
+Learning progress:
+1;869.192439862545 * root + -45.0286173369459 * Arithmetic_2_treatment_1__1_Basic;814.85615902014;814.85615902014;814.85615902014;814.85615902014;0.0625963;2;-45.0286173369459 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;
+2;419.237726802398 * root + -58.5084892867984 * Arithmetic_2_treatment_1__1_Basic + 1212.37797685651 * Class_2_axiom_2_rule_1__1_Delayed;528.319043762366;528.319043762366;528.319043762366;528.319043762366;0.1402159;3;1212.37797685651 * Class_2_axiom_2_rule_1__1_Delayed;1;286.537115257773;
+3;619.043155414853 * root + -71.2645240156573 * Arithmetic_2_treatment_1__1_Basic + 1174.69670455015 * Class_2_axiom_2_rule_1__1_Delayed + -581.43873459288 * Proof_2_splitting_1__1_Off;500.83007235386;500.83007235386;500.83007235386;500.83007235386;0.2363637;4;-581.43873459288 * Proof_2_splitting_1__1_Off;1;27.4889714085068;
+4;557.465623393423 * root + -59.7445010284861 * Arithmetic_2_treatment_1__1_Basic + 1181.634692079 * Class_2_axiom_2_rule_1__1_Delayed + -525.79425345039 * Proof_2_splitting_1__1_Off + 105.217740516388 * Proof_2_splitting_1__1_Free;500.048062135452;500.048062135452;500.048062135452;500.048062135452;0.3465329;5;105.217740516388 * Proof_2_splitting_1__1_Free;1;0.782010218407663;
+Elapsed=00:00:00.4663645
+Finished
+command: analyze-learning
+Round, Model, LearningError, LearningErrorRel, ValidationError, ValidationErrorRel, ElapsedSeconds, ModelComplexity, BestCandidate, BestCandidateSize, BestCandidateScore, TestError
+Models:
+Termination reason: 
+1;869.192439862545 * root + -45.0286173369459 * Arithmetic_2_treatment_1__1_Basic;814.85615902014;814.85615902014;814.85615902014;814.85615902014;0.0625963;2;-45.0286173369459 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;671.823506736054
+2;419.237726802398 * root + -58.5084892867984 * Arithmetic_2_treatment_1__1_Basic + 1212.37797685651 * Class_2_axiom_2_rule_1__1_Delayed;528.319043762366;528.319043762366;528.319043762366;528.319043762366;0.1402159;3;1212.37797685651 * Class_2_axiom_2_rule_1__1_Delayed;1;286.537115257773;566.622925072842
+3;619.043155414853 * root + -71.2645240156573 * Arithmetic_2_treatment_1__1_Basic + 1174.69670455015 * Class_2_axiom_2_rule_1__1_Delayed + -581.43873459288 * Proof_2_splitting_1__1_Off;500.83007235386;500.83007235386;500.83007235386;500.83007235386;0.2363637;4;-581.43873459288 * Proof_2_splitting_1__1_Off;1;27.4889714085068;571.206884741585
+4;557.465623393423 * root + -59.7445010284861 * Arithmetic_2_treatment_1__1_Basic + 1181.634692079 * Class_2_axiom_2_rule_1__1_Delayed + -525.79425345039 * Proof_2_splitting_1__1_Off + 105.217740516388 * Proof_2_splitting_1__1_Free;500.048062135452;500.048062135452;500.048062135452;500.048062135452;0.3465329;5;105.217740516388 * Proof_2_splitting_1__1_Free;1;0.782010218407663;567.137017381568
+Analyze finished
+command: clean-sampling
+command: clean-global
+command: script ./07_test.a
+command: log ./7_output.txt

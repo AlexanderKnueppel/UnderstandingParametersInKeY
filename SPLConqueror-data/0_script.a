@@ -1,0 +1,20 @@
+script ./01_test.a
+clean-global
+script ./02_test.a
+clean-global
+script ./03_test.a
+clean-global
+script ./04_test.a
+clean-global
+script ./05_test.a
+clean-global
+script ./06_test.a
+clean-global
+script ./07_test.a
+clean-global
+script ./08_test.a
+clean-global
+script ./09_test.a
+clean-global
+script ./10_test.a
+clean-global

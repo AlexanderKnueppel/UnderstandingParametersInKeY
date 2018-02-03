@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/antlr.jar"/>
+	<classpathentry kind="lib" path="lib/recoderKey.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/KeY2_7_mod/key.ui.jar"/>
+	<classpathentry kind="lib" path="lib/KeY2_7_mod/key.core.jar"/>
+	<classpathentry kind="lib" path="lib/KeY2_7_mod/key.core.symbolic_execution.jar"/>
+	<classpathentry kind="lib" path="lib/KeY2_7_mod/key.core.testgen.jar"/>
+	<classpathentry kind="lib" path="lib/KeY2_7_mod/key.util.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,32 @@
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1 limitFeatureSize:False featureSizeTreshold:4 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:False learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1 minImprovementPerRound:0.1 withHierarchy:True bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:True candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: vm ./0vm.xml
+command: all ./1train.xml
+Configs with too large deviation: 0
+875 configurations loaded.
+command: mlsettings featureSizeTreshold:1 stopOnLongRound:False useBackward:False abortError:0.00000000000001 limitFeatureSize:True learn_logFunction:True numberOfRounds:70 backwardErrorDelta:0.00000000000001 minImprovementPerRound:0.0000000000000000000001 withHierarchy:False
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1E-14 limitFeatureSize:True featureSizeTreshold:1 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:True learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1E-14 minImprovementPerRound:1E-22 withHierarchy:False bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:False candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: evaluationset ./1test.xml
+Configs with too large deviation: 0
+Evaluation set loaded.
+command: nfp Performance
+command: select-all-measurements true
+command: learn-splconqueror
+Learning: NumberOfConfigurationsLearning:875
+Learning progress:
+1;900.594501718216 * root + 63.7570341179642 * Arithmetic_2_treatment_1__1_Basic;889.836403069201;889.836403069201;889.836403069201;889.836403069201;0.1176812;2;63.7570341179642 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;
+2;420.0379715959 * root + 49.3603841825587 * Arithmetic_2_treatment_1__1_Basic + 1294.83287282957 * Class_2_axiom_2_rule_1__1_Delayed;595.024019524451;595.024019524451;595.024019524451;595.024019524451;0.1882895;3;1294.83287282957 * Class_2_axiom_2_rule_1__1_Delayed;1;294.812383544751;
+3;643.423319443848 * root + 31.8495306231869 * Arithmetic_2_treatment_1__1_Basic + 1252.94689897827 * Class_2_axiom_2_rule_1__1_Delayed + -646.860439014035 * Proof_2_splitting_1__1_Off;547.615803234824;547.615803234824;547.615803234824;547.615803234824;0.2809321;4;-646.860439014035 * Proof_2_splitting_1__1_Off;1;47.4082162896261;
+Elapsed=00:00:00.3751703
+Finished
+command: analyze-learning
+Round, Model, LearningError, LearningErrorRel, ValidationError, ValidationErrorRel, ElapsedSeconds, ModelComplexity, BestCandidate, BestCandidateSize, BestCandidateScore, TestError
+Models:
+Termination reason: 
+1;900.594501718216 * root + 63.7570341179642 * Arithmetic_2_treatment_1__1_Basic;889.836403069201;889.836403069201;889.836403069201;889.836403069201;0.1176812;2;63.7570341179642 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;752.859539230846
+2;420.0379715959 * root + 49.3603841825587 * Arithmetic_2_treatment_1__1_Basic + 1294.83287282957 * Class_2_axiom_2_rule_1__1_Delayed;595.024019524451;595.024019524451;595.024019524451;595.024019524451;0.1882895;3;1294.83287282957 * Class_2_axiom_2_rule_1__1_Delayed;1;294.812383544751;628.601227567122
+3;643.423319443848 * root + 31.8495306231869 * Arithmetic_2_treatment_1__1_Basic + 1252.94689897827 * Class_2_axiom_2_rule_1__1_Delayed + -646.860439014035 * Proof_2_splitting_1__1_Off;547.615803234824;547.615803234824;547.615803234824;547.615803234824;0.2809321;4;-646.860439014035 * Proof_2_splitting_1__1_Off;1;47.4082162896261;628.515678975209
+Analyze finished
+command: clean-sampling
+command: clean-global
+command: script ./02_test.a
+command: log ./2_output.txt

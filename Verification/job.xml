@@ -1,0 +1,802 @@
+<job>
+<!-- Strategy Options -->
+<!-- StopAt -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="StopAtUnclosable" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/StopAtUnclosable/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/StopAtUnclosable/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="StopAtDefault" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/StopAtDefault/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/StopAtDefault/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- ArithmeticTreatment -->		
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ArithmeticTreatmentBasic" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentBasic/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentBasic/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ArithmeticTreatmentDefOps" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentDefOps/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentDefOps/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ArithmeticTreatmentModelSearch" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentModelSearch/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ArithmeticTreatmentModelSearch/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- ClassAxiomRule -->		
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ClassAxiomRuleDelayed" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleDelayed/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleDelayed/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ClassAxiomRuleFree" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleFree/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleFree/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ClassAxiomRuleOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ClassAxiomRuleOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- DependencyContracts -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="DependencyContractsOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/DependencyContractsOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/DependencyContractsOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="DependencyContractsOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/DependencyContractsOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/DependencyContractsOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- ExpandLocalQueries -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ExpandLocalQueriesOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ExpandLocalQueriesOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ExpandLocalQueriesOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ExpandLocalQueriesOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ExpandLocalQueriesOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ExpandLocalQueriesOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- LoopTreatment -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="LoopTreatmentInvariant" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/LoopTreatmentInvariant/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/LoopTreatmentInvariant/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="LoopTreatmentLoopScopeInvariant" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/LoopTreatmentLoopScopeInvariant/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/LoopTreatmentLoopScopeInvariant/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- OneStepSimplification -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="OneStepSimplificationDisabled" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/OneStepSimplificationDisabled/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/OneStepSimplificationDisabled/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="OneStepSimplificationEnabled" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/OneStepSimplificationEnabled/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/OneStepSimplificationEnabled/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- ProofSplitting -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ProofSplittingDelayed" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingDelayed/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingDelayed/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ProofSplittingFree" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingFree/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingFree/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="ProofSplittingOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/ProofSplittingOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- QuantifierTreatment -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QuantifierTreatmentFree" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentFree/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentFree/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QuantifierTreatmentNone" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNone/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNone/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QuantifierTreatmentNoSplits" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNoSplits/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNoSplits/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QuantifierTreatmentNoSplitsWithProgs" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNoSplitsWithProgs/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QuantifierTreatmentNoSplitsWithProgs/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- QueryTreatment -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QueryTreatmentOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QueryTreatmentOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="QueryTreatmentRestricted" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentRestricted/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Strat/QueryTreatmentRestricted/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	
+	
+<!-- Taclet Options -->
+<!-- BigInt -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="BigintOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/BigintOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/BigintOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="BigintOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/BigintOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/BigintOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- IntegerSimplificationRules -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="IntegerSimplificationRulesFull" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/IntegerSimplificationRulesFull/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/IntegerSimplificationRulesFull/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="IntegerSimplificationRulesMinimal" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/IntegerSimplificationRulesMinimal/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/IntegerSimplificationRulesMinimal/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- MoreSeqRules -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="MoreSeqRulesOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/MoreSeqRulesOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/MoreSeqRulesOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="MoreSeqRulesOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/MoreSeqRulesOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/MoreSeqRulesOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- Sequences -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="SequencesOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/SequencesOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/SequencesOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="SequencesOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/SequencesOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/SequencesOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+<!-- Strings -->	
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="StringsOn" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/StringsOn/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/StringsOn/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="StringsOff" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/StringsOff/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Tac/StringsOff/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+
+
+
+<!-- Basis -->
+	<Codeunit Source="/home/burmeister/Desktop/MA/Quellcode" Code="Basis" FeatureSample="/home/burmeister/Desktop/MA/Samples/Base/javaSemantics">
+		<Class Name="java.util.ArrayList">
+			<Method Name="ArrayList" Parameters=""/>
+			<Method Name="ArrayList" Parameters="int"/>
+			<Method Name="size"/>
+			<Method Name="ensureCapacity"/>
+			<Method Name="clear"/>
+			<Method Name="add" FeatureSample="/home/burmeister/Desktop/MA/Samples/Base/ignoringOF"/>
+			<Method Name="fastRemove"/>
+			<Method Name="isEmpty"/>
+			<Method Name="outOfBoundsMsg"/>
+			<Method Name="rangeCheck"/>
+			<Method Name="rangeCheckForAdd"/>
+			<Method Name="trimToSize"/>
+		</Class>
+		<Class Name="java.lang.Math">
+		    <Method Name="abs"/>
+			<Method Name="max"/>
+			<Method Name="min"/>
+		</Class>
+	</Codeunit>
+</job>

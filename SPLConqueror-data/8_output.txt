@@ -1,0 +1,40 @@
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1 limitFeatureSize:False featureSizeTreshold:4 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:False learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1 minImprovementPerRound:0.1 withHierarchy:True bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:True candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: vm ./0vm.xml
+command: all ./8train.xml
+Configs with too large deviation: 0
+873 configurations loaded.
+command: mlsettings featureSizeTreshold:1 stopOnLongRound:False useBackward:False abortError:0.00000000000001 limitFeatureSize:True learn_logFunction:True numberOfRounds:70 backwardErrorDelta:0.00000000000001 minImprovementPerRound:0.0000000000000000000001 withHierarchy:False
+Current machine learning settings: epsilon:0 lossFunction:RELATIVE parallelization:True bagging:False baggingNumbers:3 baggingTestDataFraction:50 useBackward:False abortError:1E-14 limitFeatureSize:True featureSizeTreshold:1 quadraticFunctionSupport:True crossValidation:False crossValidation-k:5 learn-logFunction:True learn-accumulatedLogFunction:False learn-asymFunction:False learn-ratioFunction:False learn-mirrowedFunction:False numberOfRounds:70 backwardErrorDelta:1E-14 minImprovementPerRound:1E-22 withHierarchy:False bruteForceCandidates:False ignoreBadFeatures:False stopOnLongRound:False candidateSizePenalty:True learnTimeLimit:00:00:00 scoreMeasure:RELERROR outputRoundsToStdout:False blacklisted: 
+command: evaluationset ./8test.xml
+Configs with too large deviation: 0
+Evaluation set loaded.
+command: nfp Performance
+command: select-all-measurements true
+command: learn-splconqueror
+Learning: NumberOfConfigurationsLearning:873
+Learning progress:
+1;880.565292096223 * root + -55.4484536082477 * Arithmetic_2_treatment_1__1_Basic;814.526184892758;814.526184892758;814.526184892758;814.526184892758;0.0485748;2;-55.4484536082477 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;
+2;438.203609747138 * root + -71.8322196211748 * Arithmetic_2_treatment_1__1_Basic + 1191.91897744058 * Class_2_axiom_2_rule_1__1_Delayed;536.157640753827;536.157640753827;536.157640753827;536.157640753827;0.1161787;3;1191.91897744058 * Class_2_axiom_2_rule_1__1_Delayed;1;278.368544138932;
+3;637.545761517188 * root + -89.375678132362 * Arithmetic_2_treatment_1__1_Basic + 1156.72665765078 * Class_2_axiom_2_rule_1__1_Delayed + -582.879522879414 * Proof_2_splitting_1__1_Off;502.056030565861;502.056030565861;502.056030565861;502.056030565861;0.2068185;4;-582.879522879414 * Proof_2_splitting_1__1_Off;1;34.1016101879659;
+4;573.707611093339 * root + -77.182864863141 * Arithmetic_2_treatment_1__1_Basic + 1163.79396126927 * Class_2_axiom_2_rule_1__1_Delayed + -525.164284813562 * Proof_2_splitting_1__1_Off + 109.176454758068 * Proof_2_splitting_1__1_Free;500.471710189495;500.471710189495;500.471710189495;500.471710189495;0.3094758;5;109.176454758068 * Proof_2_splitting_1__1_Free;1;1.58432037636521;
+5;578.746645035739 * root + -74.6951086866394 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -527.247329707192 * Proof_2_splitting_1__1_Off + 107.607752542237 * Proof_2_splitting_1__1_Free + -17.5781984411371 * moreSeqRules_1__1_moreSeqRules_1_off;500.391072113558;500.391072113558;500.391072113558;500.391072113558;0.4301618;6;-17.5781984411371 * moreSeqRules_1__1_moreSeqRules_1_off;1;0.0806380759374292;
+6;379.971697210113 * root + -74.6951086866388 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -527.24732970719 * Proof_2_splitting_1__1_Off + 107.607752542237 * Proof_2_splitting_1__1_Free + 181.196749384487 * moreSeqRules_1__1_moreSeqRules_1_off + 198.774947825626 * moreSeqRules_1__1_moreSeqRules_1_on;500.391072113558;500.391072113558;500.391072113558;500.391072113558;0.5718796;7;198.774947825626 * moreSeqRules_1__1_moreSeqRules_1_on;1;5.11590769747272E-13;
+7;234.587829141917 * root + -74.6951086866381 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -309.171527604899 * Proof_2_splitting_1__1_Off + 325.683554644532 * Proof_2_splitting_1__1_Free + 108.504815350389 * moreSeqRules_1__1_moreSeqRules_1_off + 126.083013791529 * moreSeqRules_1__1_moreSeqRules_1_on + 218.075802102289 * Proof_2_splitting_1__1_Delayed;500.391072113557;500.391072113557;500.391072113557;500.391072113557;0.7521572;8;218.075802102289 * Proof_2_splitting_1__1_Delayed;1;6.82121026329696E-13;
+Elapsed=00:00:00.9421821
+Finished
+command: analyze-learning
+Round, Model, LearningError, LearningErrorRel, ValidationError, ValidationErrorRel, ElapsedSeconds, ModelComplexity, BestCandidate, BestCandidateSize, BestCandidateScore, TestError
+Models:
+Termination reason: 
+1;880.565292096223 * root + -55.4484536082477 * Arithmetic_2_treatment_1__1_Basic;814.526184892758;814.526184892758;814.526184892758;814.526184892758;0.0485748;2;-55.4484536082477 * Arithmetic_2_treatment_1__1_Basic;1;1.79769313486232E+308;641.682992728673
+2;438.203609747138 * root + -71.8322196211748 * Arithmetic_2_treatment_1__1_Basic + 1191.91897744058 * Class_2_axiom_2_rule_1__1_Delayed;536.157640753827;536.157640753827;536.157640753827;536.157640753827;0.1161787;3;1191.91897744058 * Class_2_axiom_2_rule_1__1_Delayed;1;278.368544138932;539.243123334463
+3;637.545761517188 * root + -89.375678132362 * Arithmetic_2_treatment_1__1_Basic + 1156.72665765078 * Class_2_axiom_2_rule_1__1_Delayed + -582.879522879414 * Proof_2_splitting_1__1_Off;502.056030565861;502.056030565861;502.056030565861;502.056030565861;0.2068185;4;-582.879522879414 * Proof_2_splitting_1__1_Off;1;34.1016101879659;557.225566116095
+4;573.707611093339 * root + -77.182864863141 * Arithmetic_2_treatment_1__1_Basic + 1163.79396126927 * Class_2_axiom_2_rule_1__1_Delayed + -525.164284813562 * Proof_2_splitting_1__1_Off + 109.176454758068 * Proof_2_splitting_1__1_Free;500.471710189495;500.471710189495;500.471710189495;500.471710189495;0.3094758;5;109.176454758068 * Proof_2_splitting_1__1_Free;1;1.58432037636521;553.143892484005
+5;578.746645035739 * root + -74.6951086866394 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -527.247329707192 * Proof_2_splitting_1__1_Off + 107.607752542237 * Proof_2_splitting_1__1_Free + -17.5781984411371 * moreSeqRules_1__1_moreSeqRules_1_off;500.391072113558;500.391072113558;500.391072113558;500.391072113558;0.4301618;6;-17.5781984411371 * moreSeqRules_1__1_moreSeqRules_1_off;1;0.0806380759374292;552.931077833495
+6;379.971697210113 * root + -74.6951086866388 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -527.24732970719 * Proof_2_splitting_1__1_Off + 107.607752542237 * Proof_2_splitting_1__1_Free + 181.196749384487 * moreSeqRules_1__1_moreSeqRules_1_off + 198.774947825626 * moreSeqRules_1__1_moreSeqRules_1_on;500.391072113558;500.391072113558;500.391072113558;500.391072113558;0.5718796;7;198.774947825626 * moreSeqRules_1__1_moreSeqRules_1_on;1;5.11590769747272E-13;552.931077833494
+7;234.587829141917 * root + -74.6951086866381 * Arithmetic_2_treatment_1__1_Basic + 1167.09394017544 * Class_2_axiom_2_rule_1__1_Delayed + -309.171527604899 * Proof_2_splitting_1__1_Off + 325.683554644532 * Proof_2_splitting_1__1_Free + 108.504815350389 * moreSeqRules_1__1_moreSeqRules_1_off + 126.083013791529 * moreSeqRules_1__1_moreSeqRules_1_on + 218.075802102289 * Proof_2_splitting_1__1_Delayed;500.391072113557;500.391072113557;500.391072113557;500.391072113557;0.7521572;8;218.075802102289 * Proof_2_splitting_1__1_Delayed;1;6.82121026329696E-13;552.931077833493
+Analyze finished
+command: clean-sampling
+command: clean-global
+command: script ./09_test.a
+command: log ./9_output.txt

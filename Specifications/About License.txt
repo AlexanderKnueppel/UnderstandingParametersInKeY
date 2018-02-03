@@ -1,0 +1,2 @@
+This Sourcecode is based on OpenJDK-Sourcecode.
+About licensing please see their license: http://openjdk.java.net/legal/
